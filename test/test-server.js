@@ -8,7 +8,7 @@ describe('GET /', function() {
         .get('/')
         .set('Accept', 'application/json')
         .expect('Content-Type', /json/)
-        .expect(200, done);
+        .expect(201, done);
     });
   });
 
